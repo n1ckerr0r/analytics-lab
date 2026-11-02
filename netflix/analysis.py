@@ -5,12 +5,12 @@ import seaborn as sns
 from collections import Counter
 from IPython.display import display
 
-# Настройки отображения pandas
+# pandas display settings
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 120)
 pd.set_option("display.max_colwidth", 120)
 
-# Настройки графиков
+# Plot settings
 sns.set_theme(style="whitegrid")
 plt.rcParams["figure.figsize"] = (12, 6)
 plt.rcParams["axes.titlesize"] = 16
@@ -23,7 +23,7 @@ df = pd.read_csv(DATA_PATH)
 print("Размер датасета:", df.shape)
 display(df.head())
 
-# Первчиные данные
+# Initial data inspection
 print("\nИнформация о колонках:")
 df.info()
 
@@ -40,10 +40,10 @@ display(df.head())
 print("\nСлучайные 5 строк:")
 display(df.sample(5, random_state=42))
 
-# Проверка дубликатов
+# Check for duplicates
 print("Количество полных дубликатов:", df.duplicated().sum())
 print("Количество дубликатов по show_id:", df["show_id"].duplicated().sum())
 print("Количество дубликатов по title:", df["title"].duplicated().sum())
 
-# Удаление полных дубликатов
+# Remove full duplicates
 df = df.drop_duplicates()

@@ -1,12 +1,12 @@
 # Marketing Campaign Analysis
 
-Проект по анализу маркетинговой кампании в `Jupyter Notebook`.
+A marketing campaign analysis project in `Jupyter Notebook`.
 
-## Файлы
+## Files
 
-- `marketing-campaign.ipynb` - основной ноутбук с анализом
-- `marketing_campaign.csv` - исходный датасет
+- `marketing-campaign.ipynb` - the main analysis notebook
+- `marketing_campaign.csv` - the source dataset
 
-## Как открыть
+## How to open
 
-После запуска Jupyter откройте файл `marketing-campaign.ipynb`.
+After starting Jupyter, open `marketing-campaign.ipynb`.

@@ -1,13 +1,13 @@
 # Netflix Analysis
 
-Проект по исследовательскому анализу датасета с фильмами и сериалами Netflix.
+An exploratory analysis project on a dataset of Netflix movies and TV shows.
 
-## Файлы
+## Files
 
-- `netflix.ipynb` - основной ноутбук с анализом
-- `analysis.py` - вспомогательный Python-скрипт
-- `netflix_titles.csv` - исходный датасет
+- `netflix.ipynb` - the main analysis notebook
+- `analysis.py` - a helper Python script
+- `netflix_titles.csv` - the source dataset
 
-## Как открыть
+## How to open
 
-После запуска Jupyter откройте файл `netflix.ipynb`.
+After starting Jupyter, open `netflix.ipynb`.

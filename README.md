@@ -1,17 +1,17 @@
 # Analytics Lab
 
-Сборник моих учебных и практических проектов по аналитике данных в `Jupyter Notebook`.
+A collection of my learning and practical data analytics projects in `Jupyter Notebook`.
 
-## Проекты
+## Projects
 
-- `marketing-campaign/` - анализ маркетинговой кампании и проверка гипотез
-- `netflix/` - исследовательский анализ каталога Netflix
+- `marketing-campaign/` - marketing campaign analysis and hypothesis testing
+- `netflix/` - exploratory analysis of the Netflix catalog
 
-## Что нужно для запуска
+## Requirements
 
-В этом окружении есть `python3`, но системные `pip` и полноценный `jupyter notebook` не настроены для проекта. Самый простой способ запустить ноутбуки здесь - через `uv` и локальное виртуальное окружение.
+This environment has `python3`, but the system `pip` and a full `jupyter notebook` are not set up for the project. The easiest way to run the notebooks here is via `uv` and a local virtual environment.
 
-## Быстрый старт
+## Quick start
 
 ```bash
 cd /home/n1ckerr0r/maindir/projects/analytics-lab
@@ -21,14 +21,13 @@ uv pip install -r requirements.txt
 jupyter notebook
 ```
 
-После этого в браузере откроется интерфейс Jupyter, где можно зайти в:
+After that, the Jupyter interface opens in the browser, where you can open:
 
 - `marketing-campaign/marketing-campaign.ipynb`
 - `netflix/netflix.ipynb`
 
-Альтернатива: если у вас уже установлен `JupyterLab`, можно запускать его командой:
+Alternative: if you already have `JupyterLab` installed, you can launch it with:
 
 ```bash
 jupyter lab
 ```
-
